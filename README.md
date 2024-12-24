@@ -1,10 +1,10 @@
 # Resume Customizer and Interview Preparation Agent
 
-This project automates the customization of resumes and provides interview preparation tips tailored to specific job descriptions. Using an agentic workflow, the application dynamically analyzes your current resume and job description to create a personalized, optimized resume and actionable insights for interview preparation.
+This project automates the customization of resumes and provides interview preparation tips tailored to specific job descriptions. Currently implemented as a Jupyter Notebook, the project dynamically analyzes your current resume and job description to create a personalized, optimized resume and actionable insights for interview preparation. Future updates will convert this project into a Streamlit app.
 
 ## Features
 
-- **Resume Customization**:
+- **Resume Customization**: 
   - Upload your existing resume.
   - Input the job description for the desired role.
   - Generates a tailored resume emphasizing relevant skills, experiences, and keywords.
@@ -37,7 +37,7 @@ This project automates the customization of resumes and provides interview prepa
   - Natural Language Processing (NLP) using OpenAI's GPT-based models
   - LangChain for agentic workflows
 
-- **Frontend**:
+- **Frontend** (Planned):
   - Streamlit for a user-friendly interface
 
 - **Deployment**:
@@ -61,18 +61,18 @@ This project automates the customization of resumes and provides interview prepa
    pip install -r requirements.txt
    ```
 
-4. Run the Streamlit app:
+4. Open the Jupyter Notebook:
    ```bash
-   streamlit run app.py
+   jupyter notebook resume_customizer.ipynb
    ```
 
 ## Usage
 
-1. Upload your current resume and job description via the app interface.
-2. Click on **Generate Modified Resume** to receive:
-   - The updated resume.
-   - A downloadable file.
-3. Review the **Interview Tips** section for preparation strategies.
+1. Open the notebook in Jupyter and follow the step-by-step instructions.
+2. Upload your current resume and job description as prompted.
+3. Run the notebook cells to:
+   - Generate the updated resume.
+   - Review interview preparation tips.
 
 ## Examples
 
@@ -101,5 +101,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 - OpenAI for providing powerful NLP models.
 - LangChain for enabling dynamic workflows.
-- Streamlit for making the UI intuitive and interactive.
+- Jupyter for creating an interactive development environment.
 
