@@ -1,4 +1,4 @@
-# Resume Customizer and Interview Preparation Agent
+# Resume Enhancer and Interview Preparation Agent
 
 This project automates the customization of resumes and provides interview preparation tips tailored to specific job descriptions. Currently implemented as a Jupyter Notebook, the project dynamically analyzes your current resume and job description to create a personalized, optimized resume and actionable insights for interview preparation. Future updates will convert this project into a Streamlit app.
 
@@ -48,12 +48,12 @@ This project automates the customization of resumes and provides interview prepa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/resume-customizer.git
+   git clone https://github.com/yourusername/resume_enhancer.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd resume-customizer
+   cd resume_enhancer
    ```
 
 3. Install dependencies:
@@ -63,7 +63,7 @@ This project automates the customization of resumes and provides interview prepa
 
 4. Open the Jupyter Notebook:
    ```bash
-   jupyter notebook resume_customizer.ipynb
+   jupyter notebook resume_enhancer.ipynb
    ```
 
 ## Usage
@@ -96,10 +96,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-
-- OpenAI for providing powerful NLP models.
-- LangChain for enabling dynamic workflows.
-- Jupyter for creating an interactive development environment.
 
